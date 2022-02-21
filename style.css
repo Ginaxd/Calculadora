@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.contenedor{
+    height: 100vh; /* vh hac referencia a la altura de nuestro monitor-navegador, 100vh va a cubrir toda nuestra pantalla del navegador*/
+    display:flex;/*de que manera se van a acomodar los elementos dentro del contenedor, en este caso flex */
+    flex-direction: row;
+    padding: 20px;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200530/pngtree-cute-hand-drawn-style-math-education-plaid-background-image_337365.jpg");
+    background-size: cover;
+
+}
+
+h1{
+    width: 400px;
+    margin: 0px auto;
+    color: rgb(153, 26, 26);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.calculadora{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(110, 57, 84);
+    width: 300px;
+    height: 450px;
+
+    border-radius: 25px;
+}
+
+.calculadora td button{
+    display: block;
+    width: 60px;
+    height: 50px;
+    font-size: 25px;
+    color: rgb(90, 14, 33);
+    background-color: rgb(245, 245, 245);
+    border-radius: 25px;
+}
+    
+
+#resultado{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 100px;
+    line-height: 100px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 25px;
+    overflow-y: scroll;
+}
